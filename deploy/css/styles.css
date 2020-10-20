@@ -445,3 +445,6 @@ textarea {
   justify-content: center;
   align-items: center;
 }
+#ferriswheel #loading-bar {
+  margin-top: 250px;
+}
