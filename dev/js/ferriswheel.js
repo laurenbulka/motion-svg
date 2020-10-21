@@ -4,10 +4,7 @@ gsap.set("#spokes", {transformOrigin: "center"});
 gsap.set("#carts", {transformOrigin: "center"});
 
 const wheelTL = gsap.timeline();
-
 wheelTL.from("#spokes",{duration:3,rotation:-360, repeat:4, ease:"none"});
-//.from("#carts",{duration:3,rotation:180, repeat:4, delay:-15});
-
 export function wheelAnimation(){
     return wheelTL;
 }

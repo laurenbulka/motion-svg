@@ -1,6 +1,5 @@
 import {gsap} from "gsap";
-import {wheelTL} from "./ferriswheel.js"
+import {wheelTL} from "./ferriswheel.js";
 
 const mainTl = gsap.timeline();
 mainTl.add(wheelAnimation());
-mainTl.add(barAnimation());
